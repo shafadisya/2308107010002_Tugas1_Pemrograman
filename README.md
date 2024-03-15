@@ -7,8 +7,8 @@
 5. ```scanf("%d", &pilihan);```: Meminta pengguna untuk memasukkan pilihan operasi konversi, lalu nilai tersebut disimpan dalam variabel `pilihan`.
 6. `switch(pilihan) {`: Memulai struktur kontrol switch-case untuk mengevaluasi nilai `pilihan`.
    
-###Case 1: Konversi dari Desimal ke Biner
-
+### Case 1: Konversi dari Desimal ke Biner
+```
 case 1:
     printf("Masukkan bilangan desimal: ");
     scanf("%ld", &bilangan);
@@ -28,7 +28,7 @@ case 1:
         printf("Biner: %ld\n", binaryNumber);
     }
     break;
-
+```
 1. Program meminta pengguna untuk memasukkan bilangan desimal.
 2. Variabel `binaryNumber` digunakan untuk menyimpan nilai biner hasil konversi dari bilangan desimal.
 3. Variabel `base` digunakan untuk menentukan posisi digit biner (basis 2).
@@ -38,8 +38,9 @@ case 1:
 7. Nilai `bilangan` kemudian dibagi dengan 2 untuk melanjutkan proses konversi.
 8. `base` kemudian diperbarui dengan mengalikannya dengan 10, karena kita melakukan konversi dari biner (basis 2) ke desimal (basis 10).
 9. Setelah proses iterasi selesai, nilai biner hasil konversi ditampilkan ke layar.
-```
+
 ### Case 2: Konversi dari Biner ke Desimal
+```
 case 2:
     printf("Masukkan bilangan biner: ");
     scanf("%ld", &bilangan);
@@ -70,6 +71,7 @@ case 2:
 9. Setelah proses iterasi selesai, nilai desimal hasil konversi ditampilkan ke layar.
 
 ### Case 3: Konversi dari Desimal ke Octal
+```
 case 3:
     printf("Masukkan bilangan desimal: ");
     scanf("%ld", &bilangan);
@@ -90,6 +92,7 @@ case 3:
     }
     break;
 
+```
 1. Program meminta pengguna untuk memasukkan bilangan desimal.
 2. Variabel `octalNumber` digunakan untuk menyimpan nilai oktal hasil konversi dari bilangan desimal.
 3. Variabel `base` digunakan untuk menentukan posisi digit oktal (basis 8).
@@ -99,9 +102,9 @@ case 3:
 7. Nilai `bilangan` kemudian dibagi dengan 8 untuk melanjutkan proses konversi.
 8. `base` kemudian diperbarui dengan mengalikannya dengan 10, karena kita melakukan konversi dari oktal (basis 8) ke desimal (basis 10).
 9. Setelah proses iterasi selesai, nilai oktal hasil konversi ditampilkan ke layar.
-```
+
 ### Case 4: Konversi dari Octal ke Desimal
-```c
+```
 case 4:
     printf("Masukkan bilangan octal: ");
     scanf("%ld", &bilangan);
