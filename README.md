@@ -1,6 +1,6 @@
 ##SOAL NO 1##
 
-1. ```#include <stdio.h>```: Baris ini adalah preprocessor directive yang mengarahkan kompilator untuk memasukkan library standar input-output (stdio.h) yang diperlukan untuk fungsi-fungsi input-output standar seperti `printf()` dan `scanf()`.
+1. ```#include <stdio.h>```: Baris ini yang mengarahkan kompilator untuk memasukkan library standar input-output (stdio.h) yang diperlukan untuk fungsi-fungsi input-output standar seperti `printf()` dan `scanf()`.
 2. `int main() {`: Ini adalah awal dari fungsi utama program.
 3. `int pilihan; long int bilangan;`: Mendeklarasikan dua variabel, `pilihan` untuk menyimpan pilihan menu yang dimasukkan pengguna, dan `bilangan` untuk menyimpan nilai bilangan yang dimasukkan pengguna.
 4. ```printf("Pilih operasi konversi yang ingin anda lakukan:\n");```: Mencetak pesan ke layar untuk meminta pengguna memilih operasi konversi yang diinginkan.
