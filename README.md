@@ -133,7 +133,8 @@ case 4:
 7. Nilai `base` kemudian diperbarui dengan mengalikannya dengan 8, karena kita melakukan konversi dari oktal.
 
 ##SOAL 2##
-  #include <stdio.h>
+
+ #include <stdio.h>
   
 1. Ini adalah preprocessor directive yang menye `<stdio.h>`, yang diperlukan untuk menggunakan fungsi input-output standar dalam bahasa C seperti `printf()` dan `scanf()`.
    
